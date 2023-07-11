@@ -1,0 +1,31 @@
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.msg {
+  align-items: center;
+  margin-top: 150px;
+}
+
+.backToHome {
+  margin-top: 50px;
+}
+
+.homemsg {
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.homemsg:hover {
+  background-color: green;
+}
+
+.backToHome:active {
+  transform: translateY(2px);
+}
